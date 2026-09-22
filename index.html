@@ -3,69 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Al-Madina Enterprises | Online Store</title>
+    <title>Al-Madina Enterprises | Premium Collection</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Header & Navigation -->
+    <!-- Minimal Header -->
     <header class="navbar">
-        <div class="logo">Al-Madina Enterprises</div>
-        <nav>
+        <div class="logo">AL-MADINA<span>.</span></div>
+        <nav class="nav-links">
             <a href="#home">Home</a>
-            <a href="#products">Products</a>
+            <a href="#products">Collection</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Clean Hero Section -->
     <section id="home" class="hero">
-        <h1>Welcome to Al-Madina Enterprises</h1>
-        <p>Best Quality Products with Free Delivery Across Pakistan!</p>
-        <a href="#products" class="btn-main">Shop Now</a>
+        <span class="badge">FREE DELIVERY ACROSS PAKISTAN</span>
+        <h1>Curated Quality for Your Lifestyle</h1>
+        <p>Discover minimal, high-utility essentials crafted for modern homes.</p>
+        <a href="#products" class="btn-primary">Explore Collection</a>
     </section>
 
-    <!-- Products Section -->
+    <!-- Minimalist Product Grid -->
     <section id="products" class="products-section">
-        <h2>Our Featured Products</h2>
+        <div class="section-header">
+            <h2>Featured Products</h2>
+            <p>Handpicked premium items with cash on delivery</p>
+        </div>
         
         <div class="product-grid">
             <!-- Product Card 1 -->
             <div class="product-card">
-                <img src="https://via.placeholder.com/250x200" alt="Product 1">
-                <h3>Baby Cabinet Safety Lock</h3>
-                <p class="price">Rs. 999 <span class="old-price">Rs. 1,499</span></p>
-                <a href="https://wa.me/923032091411?text=Salam!%20Mujhe%20Baby%20Cabinet%20Safety%20Lock%20order%20karna%20hai." target="_blank" class="btn-order">Order on WhatsApp</a>
+                <div class="img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=500&q=80" alt="Safety Lock">
+                </div>
+                <div class="card-details">
+                    <h3>Baby Cabinet Safety Lock</h3>
+                    <p class="desc">Childproof latch system for cabinets and drawers.</p>
+                    <div class="price-row">
+                        <span class="price">Rs. 999</span>
+                        <span class="old-price">Rs. 1,499</span>
+                    </div>
+                    <a href="https://wa.me/923032091411?text=Salam!%20Mujhe%20Baby%20Cabinet%20Safety%20Lock%20order%20karna%20hai." target="_blank" class="btn-whatsapp">Order via WhatsApp</a>
+                </div>
             </div>
 
             <!-- Product Card 2 -->
             <div class="product-card">
-                <img src="https://via.placeholder.com/250x200" alt="Product 2">
-                <h3>Bathroom Box Organizer</h3>
-                <p class="price">Rs. 1,299 <span class="old-price">Rs. 1,899</span></p>
-                <a href="https://wa.me/923032091411?text=Salam!%20Mujhe%20Bathroom%20Box%20Organizer%20order%20karna%20hai." target="_blank" class="btn-order">Order on WhatsApp</a>
+                <div class="img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=500&q=80" alt="Box Organizer">
+                </div>
+                <div class="card-details">
+                    <h3>Bathroom Box Organizer</h3>
+                    <p class="desc">Waterproof, wall-mounted luxury storage box.</p>
+                    <div class="price-row">
+                        <span class="price">Rs. 1,299</span>
+                        <span class="old-price">Rs. 1,899</span>
+                    </div>
+                    <a href="https://wa.me/923032091411?text=Salam!%20Mujhe%20Bathroom%20Box%20Organizer%20order%20karna%20hai." target="_blank" class="btn-whatsapp">Order via WhatsApp</a>
+                </div>
             </div>
 
             <!-- Product Card 3 -->
             <div class="product-card">
-                <img src="https://via.placeholder.com/250x200" alt="Product 3">
-                <h3>Vintage Fascinator Hat Set</h3>
-                <p class="price">Rs. 2,499 <span class="old-price">Rs. 3,200</span></p>
-                <a href="https://wa.me/923032091411?text=Salam!%20Mujhe%20Vintage%20Fascinator%20Hat%20Set%20order%20karna%20hai." target="_blank" class="btn-order">Order on WhatsApp</a>
+                <div class="img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=500&q=80" alt="Fascinator Set">
+                </div>
+                <div class="card-details">
+                    <h3>Vintage Fascinator Hat Set</h3>
+                    <p class="desc">Elegant lace glove and fascinator hat combo.</p>
+                    <div class="price-row">
+                        <span class="price">Rs. 2,499</span>
+                        <span class="old-price">Rs. 3,200</span>
+                    </div>
+                    <a href="https://wa.me/923032091411?text=Salam!%20Mujhe%20Vintage%20Fascinator%20Hat%20Set%20order%20karna%20hai." target="_blank" class="btn-whatsapp">Order via WhatsApp</a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer id="contact">
-        <p>&copy; 2026 Al-Madina Enterprises. All Rights Reserved.</p>
-        <p>Free Delivery All Over Pakistan | Cash On Delivery</p>
+        <p class="footer-title">AL-MADINA ENTERPRISES</p>
+        <p>&copy; 2026 All Rights Reserved. Safe & Trusted Delivery in Pakistan.</p>
     </footer>
 
     <!-- Floating WhatsApp Button -->
     <a href="https://wa.me/923032091411?text=Salam!%20Mujhe%20Al-Madina%20Enterprises%20se%20order%20place%20karna%20hai." class="whatsapp-float" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
-        <span>Chat on WhatsApp</span>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        <span>Quick Order</span>
     </a>
 
 </body>
