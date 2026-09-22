@@ -3,18 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
+    <title>Al-Madina Enterprises | Online Store</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>Ye meri pehli HTML CSS website hai.</p>
+
+    <!-- Header & Navigation -->
+    <header class="navbar">
+        <div class="logo">Al-Madina Enterprises</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to Al-Madina Enterprises</h1>
+        <p>Best Quality Products with Free Delivery Across Pakistan!</p>
+        <a href="#products" class="btn-main">Shop Now</a>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <h2>Our Featured Products</h2>
+        
+        <div class="product-grid">
+            <!-- Product Card 1 -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250x200" alt="Product 1">
+                <h3>Baby Cabinet Safety Lock</h3>
+                <p class="price">Rs. 999 <span class="old-price">Rs. 1,499</span></p>
+                <a href="https://wa.me/923032091411?text=Salam!%20Mujhe%20Baby%20Cabinet%20Safety%20Lock%20order%20karna%20hai." target="_blank" class="btn-order">Order on WhatsApp</a>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250x200" alt="Product 2">
+                <h3>Bathroom Box Organizer</h3>
+                <p class="price">Rs. 1,299 <span class="old-price">Rs. 1,899</span></p>
+                <a href="https://wa.me/923032091411?text=Salam!%20Mujhe%20Bathroom%20Box%20Organizer%20order%20karna%20hai." target="_blank" class="btn-order">Order on WhatsApp</a>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250x200" alt="Product 3">
+                <h3>Vintage Fascinator Hat Set</h3>
+                <p class="price">Rs. 2,499 <span class="old-price">Rs. 3,200</span></p>
+                <a href="https://wa.me/923032091411?text=Salam!%20Mujhe%20Vintage%20Fascinator%20Hat%20Set%20order%20karna%20hai." target="_blank" class="btn-order">Order on WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>&copy; 2026 Al-Madina Enterprises. All Rights Reserved.</p>
+        <p>Free Delivery All Over Pakistan | Cash On Delivery</p>
+    </footer>
+
     <!-- Floating WhatsApp Button -->
-<a href="https://wa.me/923032091411?text=Salam!%20Mujhe%20Al-Madina%20Enterprises%20se%20order%20place%20karna%20hai." 
-   class="whatsapp-float" 
-   target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
-    <span>Chat on WhatsApp</span>
-</a>
+    <a href="https://wa.me/923032091411?text=Salam!%20Mujhe%20Al-Madina%20Enterprises%20se%20order%20place%20karna%20hai." class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+        <span>Chat on WhatsApp</span>
+    </a>
+
 </body>
 </html>
